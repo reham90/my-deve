@@ -1,0 +1,13 @@
+.copy_right_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.copy_right {
+    font-size: 12px;
+    color: #888888;
+    padding-right: 20px;
+    font-family: "SF Pro Display Medium";
+}

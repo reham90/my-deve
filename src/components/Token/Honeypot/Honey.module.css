@@ -1,0 +1,29 @@
+.cardGreen{
+    width: 100%;
+    /* background-color:rgba(22, 199, 132,0.2); */
+    border: 1px solid #16c784;
+    padding: 10px;
+    display: flex;
+}
+.cardRed{
+    width: 100%;
+    border: 1px solid #EA3943;
+    padding: 10px;
+    display: flex;
+
+}
+.cardGreen h5{
+    font-size: 16px;
+    color: #16c784;
+    font-family: 'SF Pro Display Medium'
+}
+.cardGreen p, .cardRed p{
+    font-size: 12px;
+    font-family: 'SF Pro Display Regular';
+}
+
+.cardRed h5{
+    font-size: 16px;
+    color: #EA3943;
+    font-family: 'SF Pro Display Medium'
+}

@@ -1,0 +1,35 @@
+.container_header_left, .container_header_right {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.container_header_left {
+    direction: ltr;
+}
+
+.container_header_right {
+    direction: rtl;
+}
+
+.container_header_left .header, .container_header_right .header {
+    font-size: 16px;
+    font-family: "SF Pro Display Medium";
+    margin: 0;
+    padding: 0;
+
+}
+
+.InfoLogo_left, .InfoLogo_right {
+    width: 14px;
+    height: 14px;
+}
+
+.InfoLogo_left {
+    margin-left: 5px;
+}
+
+.InfoLogo_right {
+    margin-right: 5px;
+}

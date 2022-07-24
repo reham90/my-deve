@@ -1,0 +1,39 @@
+/* .listGroup_rtl{
+    direction: rtl;
+}
+.listGroup_ltr{
+    direction: ltr;
+} */
+.listGroup_rtl, .listGroup_ltr{
+    background-color: #EA3943 !important;
+    /* height: 240px !important; */
+    border-bottom: 0px;
+}
+.listGroup >div{
+   height: 40px; 
+}
+.detected{
+    background-color: #EA3943;
+    background-color: rgba(234, 57, 67, 0.2) !important;
+    color:#EA3943;
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #EA3943;
+    font-family: 'SF Pro Display Semibold'
+}
+.notdetected{
+    color: #16c784;
+    background-color: rgba(22, 199, 132, 0.2) !important;
+    border: 1px solid #16c784;
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+    font-family: 'SF Pro Display Semibold'
+}
+.listitem :first-child{
+    font-size: 12px;
+    font-family: 'SF Pro Display Medium'
+}
+
+

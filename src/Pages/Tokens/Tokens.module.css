@@ -1,0 +1,58 @@
+.container_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container_left {
+    display: flex;
+    align-items: center;
+}
+
+.select_btn {
+    width: 160px;
+    height: 38px;
+    background-color: #F5F5F5;
+    border: 1px solid #E8EAEC;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: SF Pro Display Regular;
+    color: #888888;
+}
+
+.verified_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 38px;
+    background-color: #F5F5F5;
+    border: 1px solid #E8EAEC;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: SF Pro Display Regular;
+    color: #888888;
+    margin-left: 10px
+}
+
+.live_btn {
+    width: 160px;
+    height: 38px;
+    background-color: #F5F5F5;
+    border: 1px solid #9F4AE8;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: SF Pro Display Regular;
+    color: #9F4AE8;
+}
+
+@media (max-width: 500px) {
+    .live_btn, .verified_btn, .select_btn {
+        width: 120px;
+        font-size: 13px;
+    }
+    .live_btn {
+        margin-left: 10px;
+    }
+}

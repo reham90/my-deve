@@ -1,0 +1,536 @@
+{
+    "BscLiquidityScan": {
+        "contractInfo": {
+            "name": "BitcoMine",
+            "symbol": "BME",
+            "current_price": 1.75e-7,
+            "market_cap": 157376.3137320392,
+            "age": "2021-08-15T15:43:08.000Z",
+            "divisor": "18",
+            "total_supply": "899293221325.938332000000000000",
+            "description": "BitcoMine tends to create a safe and trustworthy crypto environment where investors and crypto developers can interact in a secure and safe environment, taking into consideration the transparent credibility, and technical measures and standards.",
+            "tokenPriceUSD": "0.0000001750",
+            "website": "https://bitcominetoken.com/",
+            "email": "ceo@bitcominetoken.com",
+            "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0xbCba01f7d6CC0A950464a4b98BA8358c4F6B69a0/logo.png",
+            "blog": "https://bitcomine.medium.com/",
+            "reddit": "",
+            "facebook": "",
+            "twitter": "https://twitter.com/BitcoMineToken",
+            "bitcointalk": "",
+            "github": "https://github.com/BitcoMine/Contract",
+            "telegram": "https://t.me/BitcoMineToken",
+            "wechat": "",
+            "linkedin": "",
+            "discord": "",
+            "whitepaper": "https://bitcominetoken.com/whitepaper.pdf"
+        },
+        "ownerInfo": {
+            "lockedToken": [],
+            "top10LiquidityHolder": [
+                {
+                    "TokenHolderAddress": "0x5b5e94485c9628793b01a38762921dc37b6829b6",
+                    "TokenHolderQuantity": 3050751.107322407,
+                    "percentage": 98.97116735981426
+                },
+                {
+                    "TokenHolderAddress": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                    "TokenHolderQuantity": 30567.371871330695,
+                    "percentage": 0.9916536521009064
+                },
+                {
+                    "TokenHolderAddress": "0x0ed943ce24baebf257488771759f9bf482c39706",
+                    "TokenHolderQuantity": 719.9419473243045,
+                    "percentage": 0.023356049855054323
+                },
+                {
+                    "TokenHolderAddress": "0x1921d84923cc9c3a0fb55cfc5cc4351eb57e4c7a",
+                    "TokenHolderQuantity": 297.7659726187831,
+                    "percentage": 0.00965999679206115
+                },
+                {
+                    "TokenHolderAddress": "0x98c86070a04762b96bf3c601b8f2221ba3343711",
+                    "TokenHolderQuantity": 96.64402585198972,
+                    "percentage": 0.003135284302270894
+                },
+                {
+                    "TokenHolderAddress": "0xc9ac6d94ca3c9f0e2803f5f2473b30e5564a0819",
+                    "TokenHolderQuantity": 31.67716707638754,
+                    "percentage": 0.0010276571552090977
+                },
+                {
+                    "TokenHolderAddress": "0x0000000000000000000000000000000000000000",
+                    "TokenHolderQuantity": 1e-15,
+                    "percentage": 3.244157385447271e-20
+                }
+            ],
+            "tokenTransaction": [],
+            "transactions": [],
+            "pairAddress": "0x30d6ece93834F5ad948615c3a34A4a9A6D4ecd69",
+            "ownerAddress": "0x2c62EC3C853D3c69BEc8077c7393D82b65BA1709",
+            "getLiquidityBalance": "0",
+            "lockedLiquidity": "0",
+            "lockedTokenBalance": "0",
+            "LPtokenBalance": 71605555.81217581,
+            "LPtokenBalance_percentage": 2322.9969272708095,
+            "tokenBalance": "0",
+            "tokenBalance_percentage": "0",
+            "renounceOwnership": true,
+            "lockedLiquidityToken": "0",
+            "lockedLiquidityTokenPercentage": "0",
+            "lockedLiquidityTokens": []
+        },
+        "scanStatus": {
+            "isContractSummary": false,
+            "isHumanSummary": true,
+            "isAutoSummary": false,
+            "isUserSummary": true,
+            "isAuditReport": false,
+            "isPolygonContractDetail": false,
+            "isBSCContractDetail": true,
+            "isETHContractDetail": false,
+            "isBSCgetEstimateGasPrice": false,
+            "isBscLiquidityScan": true,
+            "isETHLiquidityScan": false,
+            "isPoygonLiquidityScan": false,
+            "isBSCholderScan": true,
+            "isETHholderScan": false,
+            "isPolygonHolderScan": false,
+            "isETHScanDetails": false,
+            "isBuySellBSCFeePercentage": false,
+            "isBuySellFeeETHPercentage": false,
+            "isBSCOwnerDetails": true,
+            "isETHOwnerDetails": false,
+            "isPolygonOwnerDetails": false,
+            "isTokenInfo": true,
+            "isBSCInfo": false,
+            "isETHInfo": false,
+            "isPolygonInfo": false
+        },
+        "exitsfunction": [],
+        "isAuditVerified": false,
+        "addLiquidityTransaction": [
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0xd9c352937c70168431b64d6d1f2e29512f9f93861454595a41360f54a553c164",
+                "amount": "3506609503209617436685114",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x0ee5c3e6db7d2bc5284163e139a060bf1c1dd7354f8ddc5d5c2d3edfc0b3c25a",
+                "amount": "684958639421812463511851",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x67b4e60079a548a646f5f64641a71eb3f3520ad19c5f12fad1cb8d8b9f339a54",
+                "amount": "280848736227792245119724",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x0f4a7bad0d3366219e749c78ec837a9e8f61755d420348db82fefc82209d26df",
+                "amount": "100300295120297248108358",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x96c3a30712673b9e4695d8d41fbb0b4868fce9c0b392c418fb050f4bbb857e85",
+                "amount": "78091546661736067442155",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0xd2edacc0de0f70ccfe3e6156140d90b2165f8807a9735646489eea34195dd264",
+                "amount": "21237511980103038454434",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x6f565f3972a84bc3d8fce953c720cc9e017e0871184a62c91692db941e80e043",
+                "amount": "19771660057659732705897",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x227d05e325d2cd1be2e46183667ba28d0850c52f53712cfe7abfef2c8bd75286",
+                "amount": "11294812083306295735771",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x55844d4389a212862b43cbbfdc5f951ecd058647d04da21202d23330bb0f6653",
+                "amount": "9982727621783673672197",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x085f64405368d405a912c6845d81455d577abc4ff03426b3af9db0546e155e05",
+                "amount": "9720724850103687238636",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x6e3c11c1dac3b1ffd8c513db9d61601385d20fe79fa7a6663b2bc851ad1638cc",
+                "amount": "8900625222270286647504",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x5d0c3c97cecc3d9d57ad6f825786ddfa8f3b3041ca6c0fa16538c35ed89eaf32",
+                "amount": "8625658890210421706116",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x2dbbda8d7ee988b42747730de5fbe915dd4c40220e3c33dcfe791c2d1c8b35bb",
+                "amount": "7832238070416890500476",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0xb5025564ab72ae903964810b0ba9886dc72407bf42702690f20d787693fd6ba3",
+                "amount": "7724580032442399665747",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0xf7b956ef8339605e51042cf931af23a6febf0b08ed2b90d861462eaa9414cf72",
+                "amount": "6967695243532406458595",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x462cd8050404d71cc0936be99b332f042bfe9e023aaf2655197bae846b1befe0",
+                "amount": "6742710415158600212670",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x7fe7e7943e81ded5b87e1665755778d531749c3c5fe4b805b6a8a029b9e4d074",
+                "amount": "5943845659160842410431",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x9d7d921af50e1cd18306d9f7c2c6e923b390c45b59de1b06141cd583c4e87c29",
+                "amount": "5500104380240596221962",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0xb267b3e8c5f9db1a018752fbdab23d320c3b643a3cea06d74194c5a9edcd44f6",
+                "amount": "5483381684939351410545",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x0000000000000000000000000000000000000000",
+                "receiver": "0x2c62ec3c853d3c69bec8077c7393d82b65ba1709",
+                "transaction": "0x1abca223c021f1aa0f09bd24b25b8e91a39f0d37860313a5848cb8bb38d61b91",
+                "amount": "5456201916784175046172",
+                "currency": "Cake-LP"
+            }
+        ],
+        "burnLiquidityTransaction": [],
+        "removeLiquidityTransaction": [
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x509571dfa5ca6d6ecad53215bda11f604452ea40332cbabb8883c3a7a73dbd81",
+                "amount": "798023170287186450995059",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0xe46f233d052cbd10c6386dc2562a690e1c56a0e931cfae32b9e310fcd8353a13",
+                "amount": "568918826692027515200582",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x7573c1b9e8245c32208a21c43b8e685be7d8db2b231eb4a354aa046792f11d97",
+                "amount": "390306870792481073294460",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x930824f3fd648c3dea37c0c745e356cc5558fa6028046c6e51d654ededbe4e24",
+                "amount": "302059456094536505009016",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0xc029895578ed8184b7fbe776e6c312d8b85332ca2dd9448c1ad503460e7c307c",
+                "amount": "48802127732897543362509",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x3b1d36b9811919347081a4aa49a33d78bbe20dc358d2978b6f649f4289aff40f",
+                "amount": "30533371915649306568617",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x69ce931478fcbb4d3db45bc7eafc913731aec71a4c5855a1ae389267f5e71d29",
+                "amount": "29870851000003922152798",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x7d777ad6cea8b83039dcd5c1e038a2e6023985f6d26e18453286b86342238734",
+                "amount": "22892168432871529066111",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0xd591b5bb18e37f0e9e7b74d87e357f4183d98d91a934fb198f4b35ded6ccfb7d",
+                "amount": "17320292761679805877197",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x67e20f5c1778fa78257be17310884aefc2470dd22b5fd5e99c8c12f1fa5a607e",
+                "amount": "16430170908139090244128",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x1847662ce216161232f5ee4c86f8357f5a780839be7678cf25bee6e0d5f4cd5b",
+                "amount": "15760203914277609977224",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0xb4e8d714c2c9300569d541b8e02ba5ba1940ab6ba8759acb6f6b33d5b24e7959",
+                "amount": "12541962510533536551693",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x298bf65323dddbf275aee3617dada79ad164f92f70ba32619badd797e421e5ca",
+                "amount": "11508193301831688793356",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0xa2f9680f42c6386c02731fb22e88a1425f207955d71ddb6ddff22887199d6319",
+                "amount": "9809434014661518011882",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x46e7b0f6f428bd6dd06cb80941195d2d442d50917e077baef3b969e3bce06cad",
+                "amount": "8300926035191076498853",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0xf51832c58e6f24ad0d1cc5aa7118ed249880a6f5ef40340682d9dbd23dd25a96",
+                "amount": "6136981981313103002558",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x8d13fabcbea410d4a6d930ce41b36ab76d3a9cfe3cba9870996eb865a56101d5",
+                "amount": "5620755404951614078822",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x4d44f42e95d829d0c4b8af0ac369c9aaf98a6dfdff43a601c7c1078e46e85021",
+                "amount": "4848308163506193303570",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0xe435fac9c061c064b060e1c5f86235cb99aeaec0ee118ddae82aa895095b4e0d",
+                "amount": "3136467396632184410980",
+                "currency": "Cake-LP"
+            },
+            {
+                "sender": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "receiver": "0x0000000000000000000000000000000000000000",
+                "transaction": "0x30c6912d1487ffb6a24e2bdd7d1c93c730ac4be87fb4fdd1cb69eaaf787e39c5",
+                "amount": "2986172117390175755961",
+                "currency": "Cake-LP"
+            }
+        ],
+        "getTokenInfo": [],
+        "tokenRequest": false,
+        "interest": 30,
+        "shareCount": 0,
+        "ips": [
+            "51.36.223.94",
+            "192.168.1.2",
+            "1.1.1.1",
+            "51.39.4.191",
+            "156.222.86.190",
+            "105.207.163.95",
+            "41.44.193.133",
+            "192.168.1.35",
+            "192.168.1.7",
+            "156.187.115.54",
+            "94.187.181.48",
+            "8.26.180.24",
+            "188.70.33.176",
+            "192.168.0.102",
+            "37.39.132.138",
+            "105.181.8.149",
+            "156.222.183.227",
+            "105.195.144.101",
+            "37.37.27.58",
+            "192.168.1.3",
+            "192.168.0.101",
+            "37.231.4.79",
+            "10.136.149.78",
+            "10.199.204.172",
+            "105.180.26.149",
+            "182.71.75.106",
+            "156.222.192.216",
+            "8.42.172.28",
+            "41.44.221.121",
+            "10.136.162.117"
+        ],
+        "status": "ACTIVE",
+        "_id": "62c04e94d3ffdb57c4fd89ab",
+        "contractType": "Binance",
+        "contractAddress": "0xbCba01f7d6CC0A950464a4b98BA8358c4F6B69a0",
+        "topTenHolder": [
+            {
+                "_id": "62c04ea3d3ffdb57c4fd89d3",
+                "TokenHolderAddress": "0x6e8b088279d1676b244440c523af0566c4e80f0c",
+                "TokenHolderQuantity": "310000000000",
+                "percentage": "34.47151525760741"
+            },
+            {
+                "_id": "62c04ea3d3ffdb57c4fd89d4",
+                "TokenHolderAddress": "0x30d6ece93834f5ad948615c3a34a4a9a6d4ecd69",
+                "TokenHolderQuantity": "189369486871.88516",
+                "percentage": "21.05759082590153"
+            },
+            {
+                "_id": "62c04ea3d3ffdb57c4fd89d5",
+                "TokenHolderAddress": "0x328130164d0f2b9d7a52edc73b3632e713ff0ec6",
+                "TokenHolderQuantity": "53099846313.42104",
+                "percentage": "5.904619878611942"
+            },
+            {
+                "_id": "62c04ea3d3ffdb57c4fd89d6",
+                "TokenHolderAddress": "0xd0591d5ac583a6058231792870e6ac5dadff209c",
+                "TokenHolderQuantity": "49999999999.99999",
+                "percentage": "5.55992181574313"
+            },
+            {
+                "_id": "62c04ea3d3ffdb57c4fd89d7",
+                "TokenHolderAddress": "0x3b7ce09ffc53f9b45b05fbe17069deea47bd0995",
+                "TokenHolderQuantity": "11927243168.290823",
+                "percentage": "1.3262907898610672"
+            },
+            {
+                "_id": "62c04ea3d3ffdb57c4fd89d8",
+                "TokenHolderAddress": "0x615173533d4b309467ee1ef513b24658d73643bc",
+                "TokenHolderQuantity": "8133233153.896424",
+                "percentage": "0.9044028088974807"
+            },
+            {
+                "_id": "62c04ea3d3ffdb57c4fd89d9",
+                "TokenHolderAddress": "0x3be5a08cfe0ed59f4c654aa0da0fb3adc421040f",
+                "TokenHolderQuantity": "7477015420.999999",
+                "percentage": "0.8314324231173141"
+            },
+            {
+                "_id": "62c04ea3d3ffdb57c4fd89da",
+                "TokenHolderAddress": "0xb082e500faecb492e87f0176b38c2626a185ddd7",
+                "TokenHolderQuantity": "6084598771.621121",
+                "percentage": "0.6765978690076024"
+            },
+            {
+                "_id": "62c04ea3d3ffdb57c4fd89db",
+                "TokenHolderAddress": "0xb8e84d329864bdcbef2b99b37af68e8c91be0bae",
+                "TokenHolderQuantity": "5486638284.8602295",
+                "percentage": "0.6101055979017173"
+            },
+            {
+                "_id": "62c04ea3d3ffdb57c4fd89dc",
+                "TokenHolderAddress": "0x39caf4db7497fdbd99592ca96ee2e9df32c36511",
+                "TokenHolderQuantity": "5269061268.722836",
+                "percentage": "0.5859113739291854"
+            }
+        ],
+        "createdAt": "2022-07-02T13:56:36.409Z",
+        "updatedAt": "2022-07-06T09:57:47.078Z",
+        "__v": 0,
+        "contractScan": 76.37906647807638,
+        "isNotListed": false,
+        "numberOfHighIssue": "16",
+        "numberOfInformationalIssue": "13",
+        "numberOfLowIssue": "34",
+        "numberOfMediunIssue": "38",
+        "numberOfOptimizationIssue": "33",
+        "antiBot": false,
+        "antiWhale": false,
+        "burn": true,
+        "disabletrading": false,
+        "honeypotTest": "PASS",
+        "mint": false,
+        "reflection": false,
+        "selfdistruction": false,
+        "sourceCode": "VERIFIED",
+        "totalSupply": "899293221325938332720112678648",
+        "transferOwnership": true,
+        "addLiquidityBal": "5415188.051683632",
+        "addLiquidityPer": "175.70652690190795",
+        "burnLiquidityBal": "256000",
+        "burnLiquidityPer": "8.306428226976063",
+        "removeLiquidityBal": "2333237.627208594",
+        "removeLiquidityPer": "85.70652690190673",
+        "airdropHolders": 47655,
+        "airdropHoldersPercentage": "88.47774827797478",
+        "realholders": 6179,
+        "realholdersPercentage": "11.47212268617367",
+        "shrinkHolders": 27,
+        "shrinkHoldersPercentage": "0.05012903585154379",
+        "totalHolder": 53861
+    },
+    "loading": "success",
+    "error": null
+}

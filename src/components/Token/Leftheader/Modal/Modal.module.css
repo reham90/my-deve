@@ -1,0 +1,54 @@
+.tokenImg{
+    width: 50px;
+    border-radius: 100%;
+    margin-top: -5px;
+}
+.name{
+    font-size: 16px;
+    margin-left: 2px;
+    font-family: 'SF Pro Display Semibold'
+}
+.symbol{
+    font-size: 14px;
+     background-color: rgba(136, 136, 136,0.2)
+}
+.icon_token_letter1 {
+    margin-right: 5px;
+    background-color: rgba(159, 74, 232, 0.15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.icon_token_text1 {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+}
+.modalwrapper h3{
+    font-size: 14px;
+    font-family: 'SF Pro Display Semibold'
+}
+
+.modalwrapper p{
+    font-family: 'SF Pro Display Regular'    
+}
+.closeBtn{
+    width: 56px;
+    height: 24px;
+    background: #E8EAEC;
+    border: 0;
+    outline: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #888888;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.modal-footer{
+    border-top: 0;
+}

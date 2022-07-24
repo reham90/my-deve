@@ -1,0 +1,42 @@
+.token_owner_liquidity, .token_owner_tokens {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.token_owner_liquidity .rate, .token_owner_tokens .rate {
+  margin-left: 10px;
+  font-size: 10px;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-family: "SF Pro Display Semibold";
+  background-color: rgba(34, 104, 225, 0.15);
+  font-family: "SF Pro Display Medium";
+  color: #2268E1;
+}
+
+
+.token_owner_tokens .price {
+  margin-left: 10px;
+  font-size: 10px;
+  padding: 4px 10px;
+  border-radius: 2px;
+  font-family: "SF Pro Display Semibold";
+  background-color: rgba(22, 199, 132, 0.15);
+  font-family: "SF Pro Display Medium";
+  color: #16C784;
+}
+
+.token_owner_rennounced {
+  font-size: 14px;
+  font-family: "SF Pro Display Medium";
+  color: #16C784;
+
+}
+
+.token_owner_not_rennounced {
+  font-size: 14px;
+  font-family: "SF Pro Display Medium";
+  color: #EA3943;
+}

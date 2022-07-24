@@ -1,0 +1,99 @@
+.socialBarSection{
+    padding: 13px 0;
+    border-bottom: 1px solid rgba(122,122,122,0.15);
+}
+
+.socialBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialIcons{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.socialIcons li{
+    margin-right: 8px;
+}
+.socialIcons li:last-child{
+    margin-right: 0;
+}
+.socialIcons li a{
+    color: #888;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border:1px solid #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    transition: 0.5s;
+}
+.socialIcons li a:hover{
+    color: #9F4AE8;
+    border: 1px solid #9F4AE8;
+    transform: rotate(360deg);
+}
+.socialBarNav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.socialBarNav li {
+   
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 19px;
+}
+.socialBarNav li:last-child{
+    margin-right: 0;
+}
+.socialBarNav li a{
+    color: #888;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.dropbtn {
+    background-color: transparent;
+    color: #888;
+  text-transform: capitalize;
+    font-size: 12px;
+    border: none;
+    font-weight: 500;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdownContent a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdownContent {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: transparent;}

@@ -1,0 +1,42 @@
+.wallets_table .nav-tabs {
+  border: none;
+  margin-top: 10px;
+}
+
+.wallets_table .nav-tabs .nav-link {
+  background-color: #FFFFFF;
+  color: #888888;
+  border: 1px solid #EFF2F5;
+  border-radius: 0;
+  font-size: 14px;
+  font-family: "SF Pro Display Semibold";
+
+}
+
+.wallets_table .nav-tabs .nav-link.active {
+  background-color: #EFF2F5;
+  color: #333333;
+  border: 1px solid #C8CED4;
+}
+
+tr td:nth-child(2) {
+  color: #2268E1;
+}
+
+@media (max-width: 767px) {
+  .wallets_table .nav-tabs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+
+  }
+
+  .wallets_table .nav-tabs .nav-link {
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+
+}

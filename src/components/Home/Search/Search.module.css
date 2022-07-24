@@ -1,0 +1,322 @@
+.searchNote{
+    font-size: 12px;
+    font-weight: 400;
+    color: #888;
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+}
+.dot_ltr{
+    color: #9F4AE8;
+    margin-right: 5px;
+}
+.dot_rtl{
+    color: #9F4AE8;
+    margin-left: 5px;
+}
+.searchInput{
+    width: 480px;
+    height: 52px;
+    display: flex;
+    margin-top: 9px;
+    align-items: center;
+    padding: 0 5px;
+    border:1px solid;
+    border-color: rgba(37,41,44,0.2);
+    outline: none;
+    position: relative;
+}
+.searchInput:focus{
+    border: 1px solid #9F4AE8;
+}
+.searchSection{
+    position: relative;
+    width: 480px;
+
+}
+.searchBtn_ltr{
+    color: #fff;
+    background-color: #9F4AE8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    position: absolute;
+    right: 5px;
+    border:0;
+   transition: 0.5s;
+    top: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+}
+.searchBtn_rtl{
+    color: #fff;
+    background-color: #9F4AE8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 5px;
+    border:0;
+   transition: 0.5s;
+    top: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.searchBtn_rtl:disabled{
+    background-color: rgba(159,74,232,0.15);
+    color: #9F4AE8;
+}
+.searchBtn_ltr:disabled{
+    background-color: rgba(159,74,232,0.15);
+    color: #9F4AE8;
+}
+.searchNote2{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.note{
+    font-size: 8px;
+    font-weight: 400;
+    color: #9F4AE8;
+    text-transform: uppercase;
+    width: 60px;
+    height: 20px;
+    background-color: rgba(159,74,232,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+}
+.note2{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    margin-right: 5px;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.searchInput::placeholder{
+    color: #888;
+}
+.bitcoin_ltr{
+    width: 18px;
+    height: 18px;
+    background-color: #333;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.bitcoin_rtl{
+    width: 18px;
+    height: 18px;
+    background-color: #333;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.searchBlock{
+    background-color: #fff;
+   border:1px solid ;
+   border-color: rgba(37,41,44,0.2);
+   width: 480px;
+   margin-top: 10px;
+   padding: 5px;
+   position:absolute;
+   box-shadow: 1px 1px 7px 3px #80808038;
+   z-index: 99;
+}
+.resultRecord{
+   border:1px solid #fff;
+    padding:5px 8px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.resultRecord:hover{
+    border:1px solid ;
+   border-color: rgba(37,41,44,0.2);
+   background-color: rgba(136,136,136,0.1);
+
+}
+.titleBar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'SF Pro Display Semibold';
+}
+.titleBar h1{
+    margin: 0 5px;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.titleBar span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #888;
+    text-transform: uppercase;
+    font-family: 'SF Pro Display Medium';
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:5px 0 8px;
+}
+.address{
+    
+  
+    
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(136,136,136,0.1);
+    overflow: hidden;
+    color: #888;
+    font-size: 10px;
+    padding: 6px 10px;
+    font-family: 'SF Pro Display Regular';
+}
+.address button{
+    background-color: transparent;
+    border:0;
+    font-size: 13px;
+    color: #888;
+}
+.scanGreen{
+    overflow: hidden;
+    color: rgba(22,199,132,1);
+    font-size: 10px;
+    padding: 6px 10px;
+    background-color: rgba(22,199,132,0.2);
+   
+    border-radius: 2px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: 'SF Pro Display Regular';
+}
+.scanYellow{
+    overflow: hidden;
+    color: rgba(245,163,65,1);
+    font-size: 10px;
+    padding: 6px 10px;
+    background-color: rgba(245,163,65,0.2);
+   
+    border-radius: 2px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: 'SF Pro Display Regular';
+}
+.scanRed{
+    overflow: hidden;
+    color: rgba(234,57,67,1);
+    font-size: 10px;
+    padding: 6px 10px;
+    background-color: rgba(234,57,67,0.15);
+   
+    border-radius: 2px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: 'SF Pro Display Regular';
+}
+.arrowBtn{
+    border: 0;
+    background: rgba(136,136,136,0.8);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2px;
+   visibility: hidden;
+   opacity: 0;
+    transition: 0.5s;
+}
+.resultRecord:hover .arrowBtn{
+    visibility: visible;
+    opacity: 1;
+}
+.logo{
+    width: 20px;
+}
+.checkIcon{
+    color: #9F4AE8;
+}
+.icon_token_letter {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-color: rgba(159, 74, 232, 0.15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon_token_text{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+@media only screen and (max-width: 991px){
+    .searchSection{
+        width: 100%;
+    }
+    .searchInput{
+        width: 100%;
+    }
+    .searchNote{
+        margin-top: 30px;
+    }
+    .searchBlock{
+        width: 85%;
+    }
+    .arrowBtn{
+        position: absolute;
+    right: 10px;
+    top: 20px;
+    }
+    .resultRecord{
+        position: relative;
+    }
+}

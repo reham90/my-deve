@@ -1,0 +1,115 @@
+.wallets_table .react-bootstrap-table table {
+  border: 1px solid #E3E3E3;
+  table-layout: auto
+}
+
+
+.wallets_table .react-bootstrap-table table tr {
+  border: 1px solid #E3E3E3;
+}
+
+.wallets_table .react-bootstrap-table table thead,
+.wallets_table .react-bootstrap-table table thead th,
+.wallets_table .react-bootstrap-table table thead tr {
+  background-color: #EFF2F5;
+  border-bottom-style: hidden !important;
+  border: none;
+}
+
+.wallets_table .react-bootstrap-table table thead th {
+  font-size: 12px;
+  font-family: "SF Pro Display Medium";
+  color: #333333;
+  height: 40px;
+
+}
+
+
+.wallets_table .react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul {
+  flex-direction: row;
+  justify-content: end !important;
+  align-items: center !important;
+  margin-bottom: 0rem;
+}
+
+.wallets_table .react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul li a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.wallets_table .react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul li:first-child a,
+.wallets_table .react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul li:last-child a {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-family: "SF Pro Display bold";
+}
+
+
+.wallets_table .react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul li a {
+  margin-right: 0.5rem;
+  background-color: #EFF2F5;
+  border: 1px solid #C8CED4;
+  color: #888888;
+  font-size: 12px;
+}
+
+.wallets_table .react-bootstrap-table-pagination .react-bootstrap-table-page-btns-ul li.active a {
+  background-color: #C8CED4;
+}
+
+.tokens_table .react-bootstrap-table table {
+  table-layout: auto;
+}
+
+
+.tokens_table .react-bootstrap-table table thead,
+.tokens_table .react-bootstrap-table table thead th,
+.tokens_table .react-bootstrap-table table thead tr {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #EFF2F5;
+}
+
+.tokens_table .react-bootstrap-table table thead tr {
+  border-bottom: #EFF2F5 2px solid;
+}
+
+.tokens_table .react-bootstrap-table table thead th {
+  font-size: 12px;
+  font-family: "SF Pro Display Medium";
+  color: #888888;
+  height: 40px;
+}
+
+.tokens_table .react-bootstrap-table table tbody tr {
+  font-size: 14px;
+  font-family: "SF Pro Display Medium";
+  color: #333333;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 500px) {
+  .wallets_table .react-bootstrap-table table {
+    overflow: auto;
+    display: block;
+    table-layout: auto;
+  }
+}
+
+@media (max-width: 800px) {
+
+
+  .large_table table {
+    overflow: auto;
+    display: block;
+    table-layout: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .tokens_table .react-bootstrap-table table {
+    overflow: auto;
+    display: block;
+    table-layout: auto;
+  }
+}

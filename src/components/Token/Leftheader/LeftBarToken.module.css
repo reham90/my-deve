@@ -1,0 +1,72 @@
+.tokenImg{
+    width: 50px;
+    border-radius: 100%;
+    margin-top: -5px;
+}
+.name{
+    font-size: 16px;
+    margin-left: 2px;
+    font-family: 'SF Pro Display Semibold'
+}
+.symbol{
+    font-size: 14px;
+     background-color: rgba(136, 136, 136,0.2)
+}
+.contractaddress{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.percent h5{
+    font-size: 14px; 
+    font-family: 'SF Pro Display Regular'  
+}
+
+.percent p{
+    font-size: 12px !important; 
+    font-family: 'SF Pro Display Semibold'
+
+}
+.icon_token_letter1, .icon_token_letter2 {
+    margin-right: 5px;
+    background-color: rgba(159, 74, 232, 0.15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon_token_letter2{
+    width: 18px;
+    height: 18px;
+}
+.icon_token_letter1{
+    width: 50px;
+    height: 50px;
+}
+.icon_token_text1,.icon_token_text2 {
+    padding: 0;
+    margin: 0;
+}
+.icon_token_text1 {
+    font-size: 22px;
+}
+.icon_token_text2 {
+    font-size: 12px;
+}
+.modalIcon{
+    cursor: pointer;
+}
+@media only screen and (max-width: 450px) {
+    .tokenImg{
+        width: 30px;
+    }
+    .percent>div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}

@@ -1,0 +1,48 @@
+.header_card {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.background_image {
+    background-image: url('../../../assets/images/bgIcon.png');
+    width: 26px;
+    height: 26px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+}
+
+.container_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_left {
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+    padding-left: 10px;
+    font-family: "SF Pro Display Medium";
+}
+
+.header_right {
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+    padding-right: 10px;
+    font-family: "SF Pro Display Medium";
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,500&family=Lobster+Two&display=swap');
+
+.epiloguefont{
+    font-family: "SF Pro Display Regular";
+    font-size:52px;
+    color:#333333;
+    line-height: 50px;
+    margin-top: 23px;
+    font-family:'SF Pro Display Medium';
+}
+.linkitemopcity{
+    transition: all 1s !important ;
+}
+.linkitemopcity:hover{
+    opacity: 0.6 !important;
+}
+.parag{
+    font-size:24px;
+    color:#888;
+    font-family:'SF Pro Display Medium';
+    margin-top:21px;
+}
+
+
+  
+@media screen and (max-width: 991px){
+    .epiloguefont{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .parag{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .epiloguefont{
+        font-size: 20px;
+        /* line-height: 15px; */
+    }
+    .parag{
+        font-size: 15px;
+    }
+  }
+
